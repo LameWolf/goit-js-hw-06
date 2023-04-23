@@ -184,16 +184,16 @@ const images = [
 інлайн-стиль `span#text`, оновлюючи властивість `font-size`. В результаті, перетягуючи повзунок,
 буде змінюватися розмір тексту.
 
-`html <input id="font-size-control" type="range" min="16" max="96" /> <br />
+```html
+<input id="font-size-control" type="range" min="16" max="96" /> <br />
 <span id="text">Abracadabra!</span>
-
 ```
 
 ## Завдання 8
 
 Напиши скрипт управління формою логіна.
 
-`html
+```html
 <form class="login-form">
   <label>
     Email
